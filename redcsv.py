@@ -7,7 +7,7 @@ file.close()
 
 #print(data)
 
-#create dictionary
+#create Pyhton dictionary
 etype = {"eventType": data[0][0]}
 #print(type(etype))
 
