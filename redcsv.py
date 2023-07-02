@@ -7,9 +7,9 @@ file.close()
 
 #print(data)
 
-#create Pyhton dictionary
+#create Python dictionary
 etype = {"eventType": data[0][0]}
-#print(type(etype))
+#print(type(etype)) some modif
 
 #add element
 var3=  data[0][1],data[0][2]
