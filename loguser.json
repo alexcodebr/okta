@@ -1,0 +1,114 @@
+  {
+    "actor": {
+      "id": "0oa4ike9svKBDYCBW697",
+      "type": "PublicClientApp",
+      "alternateId": "0oa4ike9svKBDYCBW697",
+      "displayName": "My API Services App",
+      "detailEntry": null
+    },
+    "client": {
+      "userAgent": {
+        "rawUserAgent": "PostmanRuntime/7.31.1",
+        "os": "Unknown",
+        "browser": "UNKNOWN"
+      },
+      "zone": "null",
+      "device": "Unknown",
+      "id": null,
+      "ipAddress": "54.86.50.139",
+      "geographicalContext": {
+        "city": "Ashburn",
+        "state": "Virginia",
+        "country": "United States",
+        "postalCode": "20149",
+        "geolocation": {
+          "lat": 39.0469,
+          "lon": -77.4903
+        }
+      }
+    },
+    "device": null,
+    "authenticationContext": {
+      "authenticationProvider": null,
+      "credentialProvider": null,
+      "credentialType": null,
+      "issuer": null,
+      "interface": null,
+      "authenticationStep": 0,
+      "externalSessionId": "unknown"
+    },
+    "displayMessage": "OAuth2 access token is granted",
+    "eventType": "app.oauth2.as.token.grant.access_token",
+    "outcome": {
+      "result": "SUCCESS",
+      "reason": null
+    },
+    "published": "2023-03-12T21:39:09.340Z",
+    "securityContext": {
+      "asNumber": 14618,
+      "asOrg": "amazon technologies inc.",
+      "isp": "amazon.com  inc.",
+      "domain": "amazonaws.com",
+      "isProxy": false
+    },
+    "severity": "INFO",
+    "debugContext": {
+      "debugData": {
+        "clientAuthType": "client_secret_basic",
+        "grantedScopes": "myscope",
+        "authorizationServerName": "ClientCredentials",
+        "authorizationServer": "aus4ikd8402j3BVWe697",
+        "responseTime": "230",
+        "rule": "0pr4ikejivxSpPYq9697",
+        "requestUri": "/oauth2/aus4ikd8402j3BVWe697/v1/token",
+        "requestedScopes": "myscope",
+        "url": "/oauth2/aus4ikd8402j3BVWe697/v1/token?",
+        "requestId": "ZA5GfTGw62Bz7JZNceIUmAAACSs",
+        "dtHash": "e074749d8b1ed7f3a0340cb9a653f1dcc1f429cc2cc5011d89cb186dd61944bb",
+        "clientSecret": "TobqwsOhenrJSrqcXtPlWg",
+        "threatSuspected": "false",
+        "grantType": "client_credentials",
+        "defaultAuthorizationServer": "false",
+        "policy": "00p4ikenhlra8wdy5697"
+      }
+    },
+    "legacyEventType": "app.oauth2.as.token.grant.access_token_success",
+    "transaction": {
+      "type": "WEB",
+      "id": "ZA5GfTGw62Bz7JZNceIUmAAACSs",
+      "detail": {}
+    },
+    "uuid": "525d9e37-c11e-11ed-8e12-9747eeb4ba88",
+    "version": "0",
+    "request": {
+      "ipChain": [
+        {
+          "ip": "54.86.50.139",
+          "geographicalContext": {
+            "city": "Ashburn",
+            "state": "Virginia",
+            "country": "United States",
+            "postalCode": "20149",
+            "geolocation": {
+              "lat": 39.0469,
+              "lon": -77.4903
+            }
+          },
+          "version": "V4",
+          "source": null
+        }
+      ]
+    },
+    "target": [
+      {
+        "id": "AT.wdFnBLA5MDEmlZphhwswGbCUevQaYXTCambce1zuWMU",
+        "type": "access_token",
+        "alternateId": null,
+        "displayName": "Access Token",
+        "detailEntry": {
+          "expires": "2023-03-12T22:39:09.000Z",
+          "hash": "BrkvEmXhTTCTYWIpFo6hqg"
+        }
+      }
+    ]
+  }
